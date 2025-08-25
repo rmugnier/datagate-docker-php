@@ -1,4 +1,5 @@
-FROM php:7.3.33-apache-buster
+# PHP 7.3.19, Apache 2.4.38 in production
+FROM php:7.3.33-apache-buster 
 
 RUN apt-get update \
     && apt-get install -y libpq-dev \
